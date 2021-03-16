@@ -14271,10 +14271,10 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[109]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#import pandas as pd</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 </pre></div>
 
      </div>
@@ -14292,7 +14292,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[110]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">location</span><span class="o">=</span><span class="s1">&#39;https://github.com/PUBPOL-542-Group-1-Project/Nick-Copeland/blob/main/Data/Report%20Card%20Per%20Pupil</span><span class="si">%20F</span><span class="s1">inance%20Data%202018-19%20(1)%20(2).xlsx?raw=true&#39;</span>
@@ -14314,7 +14314,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[111]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin</span><span class="o">.</span><span class="n">info</span>
@@ -14333,7 +14333,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[111]:</div>
 
 
 
@@ -14417,13 +14417,13 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
-<p>18 columns? At least half of these variables are unimportant.  Let's use info with a () to view the data types for each column:</p>
+<p>18 columns? At least half of these variables are unimportant.  Let's use info() to view the data types for each column:</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[112]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -14489,7 +14489,7 @@ memory usage: 5.8+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[113]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin1</span><span class="o">=</span><span class="n">fin</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -14510,7 +14510,7 @@ memory usage: 5.8+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[114]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin1</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">fin1</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,[</span><span class="mi">0</span><span class="p">,</span><span class="mi">17</span><span class="p">]],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -14531,7 +14531,7 @@ memory usage: 5.8+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[115]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin1</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -14595,7 +14595,7 @@ memory usage: 5.2+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[116]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin1</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">fin1</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">11</span><span class="p">]],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1">#drop columns 0, 1, 3, 4, 7, 10, 11,  &quot;orglevel, orgID, ESDname, ESDorganizationID, DistrictORganizationID, schoolorganizationID, and PersonnelFlag&quot;</span>
@@ -14616,7 +14616,7 @@ memory usage: 5.2+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[117]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin1</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -14673,7 +14673,7 @@ memory usage: 2.9+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[118]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin1</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
@@ -14692,7 +14692,7 @@ memory usage: 2.9+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[118]:</div>
 
 
 
@@ -14808,7 +14808,7 @@ memory usage: 2.9+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[119]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin2</span><span class="o">=</span><span class="n">fin1</span><span class="p">[</span><span class="o">~</span><span class="n">fin1</span><span class="o">.</span><span class="n">County</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s2">&quot;Multiple&quot;</span><span class="p">)]</span>
@@ -14823,16 +14823,20 @@ memory usage: 2.9+ MB
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
-<p>Let's see if this worked by checking out the final entries in our new "fin2" dataframe (this is where we had the unwanted aggregated entries "multiple")</p>
+<p>Let's see if this worked by checking out if fin2 contains any instances of "Multiple"</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[120]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin2</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+
+
+<span class="nb">print</span><span class="p">(</span><span class="n">fin2</span><span class="o">.</span><span class="n">count</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Counter</span><span class="p">(</span><span class="n">fin2</span><span class="o">.</span><span class="n">County</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s2">&quot;Multiple&quot;</span><span class="p">)))</span>
 </pre></div>
 
      </div>
@@ -14848,106 +14852,23 @@ memory usage: 2.9+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>County</th>
-      <th>DistrictCode</th>
-      <th>DistrictName</th>
-      <th>SchoolCode</th>
-      <th>SchoolName</th>
-      <th>Source</th>
-      <th>EnrollmentTotal</th>
-      <th>Activity</th>
-      <th>Expenditure</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>42167</th>
-      <td>Skagit</td>
-      <td>29103</td>
-      <td>Anacortes School District</td>
-      <td>5588</td>
-      <td>Open Doors</td>
-      <td>State/Local</td>
-      <td>10.9</td>
-      <td>School Food Services</td>
-      <td>0.000000</td>
-    </tr>
-    <tr>
-      <th>42168</th>
-      <td>Skagit</td>
-      <td>29103</td>
-      <td>Anacortes School District</td>
-      <td>5588</td>
-      <td>Open Doors</td>
-      <td>State/Local</td>
-      <td>10.9</td>
-      <td>Pupil Transportation</td>
-      <td>408.401192</td>
-    </tr>
-    <tr>
-      <th>42169</th>
-      <td>Skagit</td>
-      <td>29103</td>
-      <td>Anacortes School District</td>
-      <td>5588</td>
-      <td>Open Doors</td>
-      <td>State/Local</td>
-      <td>10.9</td>
-      <td>Maintenance and Operations</td>
-      <td>4897.681124</td>
-    </tr>
-    <tr>
-      <th>42170</th>
-      <td>Skagit</td>
-      <td>29103</td>
-      <td>Anacortes School District</td>
-      <td>5588</td>
-      <td>Open Doors</td>
-      <td>State/Local</td>
-      <td>10.9</td>
-      <td>Other Service</td>
-      <td>625.167693</td>
-    </tr>
-    <tr>
-      <th>42171</th>
-      <td>Skagit</td>
-      <td>29103</td>
-      <td>Anacortes School District</td>
-      <td>5588</td>
-      <td>Open Doors</td>
-      <td>State/Local</td>
-      <td>10.9</td>
-      <td>Public Actives</td>
-      <td>11.587718</td>
-    </tr>
-  </tbody>
-</table>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>County             42172
+DistrictCode       42172
+DistrictName       42172
+SchoolCode         42172
+SchoolName         42172
+Source             42172
+EnrollmentTotal    42172
+Activity           42172
+Expenditure        42172
+dtype: int64
+Counter({False: 42172})
+</pre>
 </div>
-</div>
-
 </div>
 
 </div>
@@ -14964,7 +14885,7 @@ memory usage: 2.9+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[121]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin2</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -15023,287 +14944,24 @@ memory usage: 3.2+ MB
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>So we checked with our groupmates and they would like us to make the following changes:</p>
 <ol>
-<li>round all our expenditures to a single decimal point</li>
 <li>remove every column BESIDES school code and expenditure</li>
 <li>sum the expenditures by school code, so we know how much each school spent in total for 2018-2019</li>
 <li>make expenditure int64 instead of float64, so we can have whole numbers for expenditures and cleaner data in general.</li>
 </ol>
-<p>Steps 1-4 are as follows:</p>
+<p>Steps 1-3 are as follows:</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
-<p>STEP 1:  round all our expenditure values</p>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin2</span><span class="o">.</span><span class="n">Expenditure</span><span class="o">=</span><span class="n">fin2</span><span class="o">.</span><span class="n">Expenditure</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>C:\Users\nrcop\anaconda3\lib\site-packages\pandas\core\generic.py:5168: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame.
-Try using .loc[row_indexer,col_indexer] = value instead
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  self[name] = value
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr>
-<p>Step 1 continued: check to see that it worked</p>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin2</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>County</th>
-      <th>DistrictCode</th>
-      <th>DistrictName</th>
-      <th>SchoolCode</th>
-      <th>SchoolName</th>
-      <th>Source</th>
-      <th>EnrollmentTotal</th>
-      <th>Activity</th>
-      <th>Expenditure</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Grays Harbor</td>
-      <td>14005</td>
-      <td>Aberdeen School District</td>
-      <td>0</td>
-      <td>District Total</td>
-      <td>Federal</td>
-      <td>3479.42</td>
-      <td>Administration</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Grays Harbor</td>
-      <td>14005</td>
-      <td>Aberdeen School District</td>
-      <td>0</td>
-      <td>District Total</td>
-      <td>Federal</td>
-      <td>3479.42</td>
-      <td>Instruction</td>
-      <td>241298.9</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Grays Harbor</td>
-      <td>14005</td>
-      <td>Aberdeen School District</td>
-      <td>0</td>
-      <td>District Total</td>
-      <td>Federal</td>
-      <td>3479.42</td>
-      <td>Instructional Support</td>
-      <td>73245.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Grays Harbor</td>
-      <td>14005</td>
-      <td>Aberdeen School District</td>
-      <td>0</td>
-      <td>District Total</td>
-      <td>Federal</td>
-      <td>3479.42</td>
-      <td>School Food Services</td>
-      <td>1021709.2</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Grays Harbor</td>
-      <td>14005</td>
-      <td>Aberdeen School District</td>
-      <td>0</td>
-      <td>District Total</td>
-      <td>Federal</td>
-      <td>3479.42</td>
-      <td>Maintenance and Operations</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>42167</th>
-      <td>Skagit</td>
-      <td>29103</td>
-      <td>Anacortes School District</td>
-      <td>5588</td>
-      <td>Open Doors</td>
-      <td>State/Local</td>
-      <td>10.90</td>
-      <td>School Food Services</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>42168</th>
-      <td>Skagit</td>
-      <td>29103</td>
-      <td>Anacortes School District</td>
-      <td>5588</td>
-      <td>Open Doors</td>
-      <td>State/Local</td>
-      <td>10.90</td>
-      <td>Pupil Transportation</td>
-      <td>408.4</td>
-    </tr>
-    <tr>
-      <th>42169</th>
-      <td>Skagit</td>
-      <td>29103</td>
-      <td>Anacortes School District</td>
-      <td>5588</td>
-      <td>Open Doors</td>
-      <td>State/Local</td>
-      <td>10.90</td>
-      <td>Maintenance and Operations</td>
-      <td>4897.7</td>
-    </tr>
-    <tr>
-      <th>42170</th>
-      <td>Skagit</td>
-      <td>29103</td>
-      <td>Anacortes School District</td>
-      <td>5588</td>
-      <td>Open Doors</td>
-      <td>State/Local</td>
-      <td>10.90</td>
-      <td>Other Service</td>
-      <td>625.2</td>
-    </tr>
-    <tr>
-      <th>42171</th>
-      <td>Skagit</td>
-      <td>29103</td>
-      <td>Anacortes School District</td>
-      <td>5588</td>
-      <td>Open Doors</td>
-      <td>State/Local</td>
-      <td>10.90</td>
-      <td>Public Actives</td>
-      <td>11.6</td>
-    </tr>
-  </tbody>
-</table>
-<p>42172 rows × 9 columns</p>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr>
-<p>See that the final column now has everything in tens of cents.</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr>
-<p>Step 2: remove every column that's not school code and expenditures</p>
+<p>Step 1: remove every column that's not school code and expenditures</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[122]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin2</span><span class="o">=</span><span class="n">fin2</span><span class="p">[[</span><span class="s1">&#39;SchoolCode&#39;</span><span class="p">,</span> <span class="s1">&#39;Expenditure&#39;</span><span class="p">]]</span>
@@ -15317,7 +14975,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[123]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin2</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -15361,20 +15019,20 @@ memory usage: 988.4 KB
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
-<p>Bye bye extraneous data. On to step 3:</p>
+<p>Bye bye extraneous data. On to step 2:</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
-<p>Step 3: Sum expenditures by school code and put it in a new fin copy:</p>
+<p>Step 2: Sum expenditures by school code and put it in a new fin copy:</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[124]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin3</span> <span class="o">=</span> <span class="n">fin2</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;SchoolCode&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">Expenditure</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
@@ -15388,7 +15046,7 @@ memory usage: 988.4 KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[125]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin3</span>
@@ -15407,7 +15065,7 @@ memory usage: 988.4 KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[50]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[125]:</div>
 
 
 
@@ -15443,7 +15101,7 @@ memory usage: 988.4 KB
     <tr>
       <th>1</th>
       <td>1500</td>
-      <td>2.610360e+05</td>
+      <td>2.610358e+05</td>
     </tr>
     <tr>
       <th>2</th>
@@ -15453,7 +15111,7 @@ memory usage: 988.4 KB
     <tr>
       <th>3</th>
       <td>1506</td>
-      <td>9.329199e+05</td>
+      <td>9.329198e+05</td>
     </tr>
     <tr>
       <th>4</th>
@@ -15468,12 +15126,12 @@ memory usage: 988.4 KB
     <tr>
       <th>2375</th>
       <td>5563</td>
-      <td>4.804910e+04</td>
+      <td>4.804905e+04</td>
     </tr>
     <tr>
       <th>2376</th>
       <td>5588</td>
-      <td>2.269740e+04</td>
+      <td>2.269728e+04</td>
     </tr>
     <tr>
       <th>2377</th>
@@ -15506,20 +15164,20 @@ memory usage: 988.4 KB
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
-<p>We cut down our number of rows by a factor of 20.  Also, we now have 1 row per school, each with its own school code and total expenditure amount.  How neat! Onward to step 4:</p>
+<p>We cut down our number of rows by a factor of 20.  Also, we now have 1 row per school, each with its own school code and total expenditure amount.  How neat! Onward to step 3:</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
-<p>Step 4: Convert to int64 formatting and get rid of these infernal scientific notations:</p>
+<p>Step 3: Convert to int64 formatting and get rid of these infernal scientific notations:</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[126]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin3</span><span class="o">.</span><span class="n">Expenditure</span><span class="o">=</span><span class="n">fin3</span><span class="o">.</span><span class="n">Expenditure</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;int64&#39;</span><span class="p">)</span>
@@ -15533,7 +15191,7 @@ memory usage: 988.4 KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[127]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin3</span>
@@ -15552,7 +15210,7 @@ memory usage: 988.4 KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[52]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[127]:</div>
 
 
 
@@ -15588,7 +15246,7 @@ memory usage: 988.4 KB
     <tr>
       <th>1</th>
       <td>1500</td>
-      <td>261036</td>
+      <td>261035</td>
     </tr>
     <tr>
       <th>2</th>
@@ -15603,7 +15261,7 @@ memory usage: 988.4 KB
     <tr>
       <th>4</th>
       <td>1508</td>
-      <td>2656577</td>
+      <td>2656576</td>
     </tr>
     <tr>
       <th>...</th>
@@ -15657,7 +15315,7 @@ memory usage: 988.4 KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[128]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fin3</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;Finance_Report_Card_Clean.csv&#39;</span><span class="p">)</span>
